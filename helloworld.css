@@ -1,0 +1,46 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+  color: white;
+}
+
+.content {
+  display: flex;
+  gap: 15px;
+}
+
+.news {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid black;
+  margin-bottom: 15px;
+}
+
+.news .title {
+  text-align: center;
+}
+
+.news .paragraph {
+  color: blue;
+}
+
+.content1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.photo1 {
+  height: 500px;
+  /* width: 50%; */
+  border: 1px solid black;
+  padding: 5px;
+  object-fit: cover;
+}

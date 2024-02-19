@@ -1,0 +1,51 @@
+.navbar {
+  background: green;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 15px;
+  align-items: center;
+}
+.content {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar .logo img {
+  height: 100px;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.details {
+  margin-bottom: 15px;
+  text-align: left;
+  color: black;
+  padding: 20px;
+}
+
+.banner {
+  background: url("13.jpg");
+  padding: 10px 20px 30px 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pawan {
+  display: flex;
+  margin-top: 30px;
+}
+
+.loop {
+  width: 40%;
+}
+.footer {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px 30px 40px;
+  text-align: center;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
